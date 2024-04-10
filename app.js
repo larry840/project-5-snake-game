@@ -90,7 +90,7 @@ function changeDirection(e) {
 
     // 每次按下方向鍵之後，在下一幀被畫出來之前，不接受任何keydown事件
     // 用來防止連續按按鍵導致蛇在邏輯上自殺
-    window.removeEventListener("keydowna", changeDirection);
+    window.removeEventListener("keydown", changeDirection);
 }
 
 let highestScore;
