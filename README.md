@@ -7,3 +7,4 @@
 1. 用canvas畫出簡易圖形，用到getContext、fillStyle、fillRect、strokeStyle。
 2. 從遊戲規則轉換成程式語言，如：邊界、碰撞、移動限制、遊戲結束等等判定。
 3. 透過local storage儲存歷史最高分數，學習將資料寫入、讀取至storage。
+4. 學習使用class創建物件，constructor設定property及method，此遊戲中是產生果實並隨機放置。
